@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Store Home</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f5f5f5; margin:0 }
+    nav { background:#222; color:#fff; padding:10px }
+    nav a { color:#fff; margin: 0 15px; text-decoration:none }
+    .floating-welcome {
+      position: fixed; top: 20px; right: 20px;
+      background: #e63946; color: #fff; padding: 12px 18px;
+      border-radius: 8px; box-shadow: 2px 2px 10px #666;
+      animation: float 2s infinite alternate;
+      z-index:100;
+    }
+    @keyframes float { 0% {transform: translateY(0);} 100% {transform: translateY(12px);} }
+    .gallery {
+      display: flex; flex-wrap: wrap; gap:20px; justify-content: center; margin: 30px 0;
+    }
+    .gallery img { width:200px; height:220px; object-fit:cover; border-radius:8px }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="aboutus.html">About Us</a> | 
+    <a href="contact.html">Contact Us</a> | 
+    <a href="feedback.html">Feedback</a> | 
+    <a href="registration.html">Register</a> | 
+    <a href="signin.html">Sign In</a> | 
+    <a href="signout.html">Sign Out</a> | 
+    <a href="https://www.nike.com/ug/">Nike UG</a> | 
+    <a href="https://www.zara.com/ug/">ZARA UG</a> | 
+    <a href="https://www.hm.com/ug/">H&M UG</a>
+  </nav>
+
+  <div class="floating-welcome">
+    Joel Gracious welcoming you to the Shopping Store
+  </div>
+
+  <h1 style="text-align:center; margin-top:30px;">Fashion Gallery</h1>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Clothes">
+    <img src="https://images.unsplash.com/photo-1514995669114-d1c6f1c21b17?auto=format&fit=crop&w=400&q=80" alt="Shoes">
+    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Bags">
+    <!-- Add more images as needed -->
+  </div>
+</body>
+</html>

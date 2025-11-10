@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Shopping Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="aboutus.html">About Us</a> | 
+    <a href="contact.html">Contact Us</a> | 
+    <a href="feedback.html">Feedback</a> | 
+    <a href="registration.html">Register</a> | 
+    <a href="signin.html">Sign In</a> | 
+    <a href="signout.html">Sign Out</a> | 
+    <a href="https://www.nike.com/ug/">Nike UG</a> | 
+    <a href="https://www.zara.com/ug/">ZARA UG</a> | 
+    <a href="https://www.hm.com/ug/">H&M UG</a>
+  </nav>
+  <div class="floating-welcome">
+    Joel Gracious welcoming you to the Shopping Store
+  </div>
+  <h2>About Us</h2>
+  <p>
+    Welcome to the premier Ugandan online shopping store for fashion lovers! <br>
+    We offer the latest collections of clothes, shoes, and bags inspired by top brands globally and locally. 
+    Our mission is to provide quality, affordability, and an outstanding shopping experience.<br>
+    <strong>Discover. Shop. Shine.</strong>
+  </p>
+</body>
+</html>

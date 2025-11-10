@@ -1,0 +1,46 @@
+nav {
+  background:#222;
+  color:#fff;
+  padding:10px;
+}
+nav a {
+  color:#fff;
+  margin: 0 15px;
+  text-decoration:none;
+}
+.floating-welcome {
+  position: fixed;
+  top: 20px; right: 20px;
+  background: #e63946; color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #666;
+  animation: float 2s infinite alternate;
+  z-index:100;
+}
+@keyframes float {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(12px);}
+}
+form {
+  margin: 2em;
+  max-width: 400px;
+}
+form input, form textarea, form select {
+  width:99%;
+  margin-bottom:10px;
+  padding:8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  padding:10px 20px;
+  background:#2a9d8f;
+  color:#fff;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+form button:hover {
+  background:#21867a;
+}

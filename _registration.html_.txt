@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Shopping Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="aboutus.html">About Us</a> | 
+    <a href="contact.html">Contact Us</a> | 
+    <a href="feedback.html">Feedback</a> | 
+    <a href="registration.html">Register</a> | 
+    <a href="signin.html">Sign In</a> | 
+    <a href="signout.html">Sign Out</a> | 
+    <a href="https://www.nike.com/ug/">Nike UG</a> | 
+    <a href="https://www.zara.com/ug/">ZARA UG</a> | 
+    <a href="https://www.hm.com/ug/">H&M UG</a>
+  </nav>
+  <div class="floating-welcome">
+    Joel Gracious welcoming you to the Shopping Store
+  </div>
+  <h2>Register</h2>
+  <form action="signin.html" method="post">
+    <label>Username:</label><br>
+    <input type="text" name="username" required><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br>
+    <label>Confirm Password:</label><br>
+    <input type="password" name="confirmpassword" required><br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
